@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    font-family: "ui-sans-serif";
+  }
+}
+
+.desc {
+  @apply text-lg pb-4 indent-3;
+}
+
+.target {
+  @apply text-lg px-5 m-3 capitalize hover:text-red-500 duration-200;
+}
